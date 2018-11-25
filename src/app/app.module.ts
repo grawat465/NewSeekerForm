@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { RouterModule, Routes } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SignupComponent } from './signup/signup.component';
@@ -14,6 +14,7 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { LoginComponent } from './login/login.component';
 import { HttpClientModule } from '@angular/common/http';
 import {HttpModule} from '@angular/http';
+
 
 //import { SeekerSignupComponent } from './seeker-signup/seeker-signup.component';
 
@@ -43,7 +44,7 @@ import {HttpModule} from '@angular/http';
     MatRadioModule,
     MatTabsModule,
     HttpClientModule,
-    HttpModule
+    HttpModule,RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -20,17 +20,17 @@
             <form [formGroup]="loginForm">
               <mat-form-field [ngClass]="{'error': loginForm.controls['email'].errors && !loginForm.controls['email'].pristine}">
                 <input type="text" matInput formControlName="email" placeholder="Username" required>
-              </mat-form-field>
-                <!----
                 <div *ngIf="loginForm.controls['email'].errors && !loginForm.controls['email'].pristine" class="error-msg">
                   <mat-error *ngIf="loginForm.controls['email'].errors.required">Email is required.</mat-error>
-                  <mat-error *ngIf="!loginForm.controls['email'].errors.pattern">Email is invalid.</mat-error>
+                <!---- <mat-error *ngIf="!loginForm.controls['email'].errors.pattern">Email is invalid.</mat-error>-->
                 </div>
+              </mat-form-field>
               
-              -->
+                
+              
+         
               <mat-form-field [ngClass]="{'error': loginForm.controls['password'].errors && !loginForm.controls['password'].pristine}">
-              
-                <input type="password" matInput formControlName="password" placeholder="Password" required>
+              <input type="password" matInput formControlName="password" placeholder="Password" required>
                 <div *ngIf="loginForm.controls['password'].errors && !loginForm.controls['password'].pristine" class="error-msg">
                   <mat-error *ngIf="!loginForm.controls['password'].errors.required">Password is required.</mat-error>
                 </div>

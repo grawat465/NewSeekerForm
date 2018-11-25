@@ -44,7 +44,7 @@ export class SignupComponent implements OnInit {
 
   validation_messages = {
     'firstname': [
-      { type : 'pattern', message : 'No special characters are allowed'},
+      { type : 'pattern', message : 'MInimum 4 Characters'},
       { type: 'required', message: 'First name is required' }
     ],
     'lastname': [
