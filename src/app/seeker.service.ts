@@ -21,12 +21,17 @@ export class SeekerService {
 
   constructor(private http : HttpClient) { }
 
-  private userUrl = 'http://localhost:9090';
+  /**
+   * name
+   */
+  public name() {
+    
+  } userUrl = 'http://localhost:9090';
 
 
 public signUpUser(Seeker){
 
-  return this.http.post<Seeker>(this.userUrl+"/seeker/signup/emp", Seeker)
+  return this.http.post<Seeker[]>(this.userUrl+"/seeker/signup/emp", Seeker)
 }
 
 

@@ -1,5 +1,6 @@
 
-<html>
+<!DOCTYPE html>
+<title>login page</title>
 <body>
 
   <div class="tabhead">
@@ -22,7 +23,7 @@
                 <input type="text" matInput formControlName="email" placeholder="Username" required>
                 <div *ngIf="loginForm.controls['email'].errors && !loginForm.controls['email'].pristine" class="error-msg">
                   <mat-error *ngIf="loginForm.controls['email'].errors.required">Email is required.</mat-error>
-                <!---- <mat-error *ngIf="!loginForm.controls['email'].errors.pattern">Email is invalid.</mat-error>-->
+                
                 </div>
               </mat-form-field>
               
@@ -46,4 +47,3 @@
 
   <router-outlet></router-outlet>
 </body>
-</html>

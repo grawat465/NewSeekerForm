@@ -2,20 +2,20 @@
 
 export class Seeker {
 
-    firstName:String;
-    lastName:String;
-    password:String;
-    emailId:String;
+    firstName:string;
+    lastName:string;
+    password:string;
+    emailId:string;
     dob:Date;
-    address:String;
-    mobileno:String;
-    gender:String;
-    bio:String;
-    city:String;
-    zipcode:String;
-    country:String;
-    states:String;
-    username:String;
+    address:string;
+    mobileno:string;
+    gender:string;
+    bio:string;
+    city:string;
+    zipcode:string;
+    country:string;
+    states:string;
+    username:string;
     
   
 

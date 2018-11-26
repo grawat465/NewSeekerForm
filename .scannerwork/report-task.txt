@@ -1,6 +1,6 @@
-projectKey=company:Angular
+projectKey=company:Angular-module
 serverUrl=http://localhost:9000
 serverVersion=6.7.5.38563
-dashboardUrl=http://localhost:9000/dashboard/index/company:Angular
-ceTaskId=AWdMML-ZhriA7VJVlz3L
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AWdMML-ZhriA7VJVlz3L
+dashboardUrl=http://localhost:9000/dashboard/index/company:Angular-module
+ceTaskId=AWdO6_tyhriA7VJVlz3x
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWdO6_tyhriA7VJVlz3x
